@@ -1,5 +1,6 @@
 .venv/
-/venv
 .env
+data/
+logs/
 
 notas.txt
