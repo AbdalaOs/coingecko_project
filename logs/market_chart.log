@@ -1,0 +1,45 @@
+2026-06-04 13:24:55,907 - INFO - __main__ - Fetching raw market data for: bitcoin.
+2026-06-04 13:24:55,907 - INFO - __main__ - Loading extraction file data/raw/checkpoint/bitcoin/latest_data.json.
+2026-06-04 13:24:55,907 - INFO - __main__ - Fetching hourly data from last checkpoint.
+2026-06-04 13:24:55,908 - INFO - __main__ - Historic data used: 20260604_0600
+2026-06-04 13:24:56,339 - INFO - client.connection - Response status code: 200
+2026-06-04 13:24:56,339 - INFO - client.connection - Request succesful.
+2026-06-04 13:24:56,378 - INFO - __main__ - Raw data saved to: data/raw/historic/bitcoin/hourly_interval/bitcoin_chart_data_20260604_1924.json
+2026-06-04 13:24:56,378 - INFO - src.utils.saver - Checkpoint file created in: data/raw/checkpoint/bitcoin/latest_data.json
+2026-06-04 13:24:56,379 - INFO - __main__ - Raw data fetching process completed.
+2026-06-04 13:24:56,379 - INFO - __main__ - Fetching raw market data for: ethereum.
+2026-06-04 13:24:56,380 - INFO - __main__ - Last extraction file does not exists.
+2026-06-04 13:24:56,380 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-04 13:24:56,380 - INFO - __main__ - Historic data used: 20260306_1924
+2026-06-04 13:24:57,277 - INFO - client.connection - Response status code: 200
+2026-06-04 13:24:57,277 - INFO - client.connection - Request succesful.
+2026-06-04 13:24:57,328 - INFO - __main__ - Raw data saved to: data/raw/historic/ethereum/hourly_interval/ethereum_chart_data_20260604_1924.json
+2026-06-04 13:24:57,329 - INFO - src.utils.saver - Checkpoint file created in: data/raw/checkpoint/ethereum/latest_data.json
+2026-06-04 13:24:57,329 - INFO - __main__ - Raw data fetching process completed.
+2026-06-04 13:24:57,329 - INFO - __main__ - Fetching raw market data for: solana.
+2026-06-04 13:24:57,330 - INFO - __main__ - Last extraction file does not exists.
+2026-06-04 13:24:57,330 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-04 13:24:57,330 - INFO - __main__ - Historic data used: 20260306_1924
+2026-06-04 13:24:58,206 - INFO - client.connection - Response status code: 200
+2026-06-04 13:24:58,206 - INFO - client.connection - Request succesful.
+2026-06-04 13:24:58,244 - INFO - __main__ - Raw data saved to: data/raw/historic/solana/hourly_interval/solana_chart_data_20260604_1924.json
+2026-06-04 13:24:58,245 - INFO - src.utils.saver - Checkpoint file created in: data/raw/checkpoint/solana/latest_data.json
+2026-06-04 13:24:58,245 - INFO - __main__ - Raw data fetching process completed.
+2026-06-04 13:24:58,245 - INFO - __main__ - Fetching raw market data for: ripple.
+2026-06-04 13:24:58,245 - INFO - __main__ - Last extraction file does not exists.
+2026-06-04 13:24:58,245 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-04 13:24:58,245 - INFO - __main__ - Historic data used: 20260306_1924
+2026-06-04 13:24:59,009 - INFO - client.connection - Response status code: 200
+2026-06-04 13:24:59,009 - INFO - client.connection - Request succesful.
+2026-06-04 13:24:59,041 - INFO - __main__ - Raw data saved to: data/raw/historic/ripple/hourly_interval/ripple_chart_data_20260604_1924.json
+2026-06-04 13:24:59,042 - INFO - src.utils.saver - Checkpoint file created in: data/raw/checkpoint/ripple/latest_data.json
+2026-06-04 13:24:59,042 - INFO - __main__ - Raw data fetching process completed.
+2026-06-04 13:24:59,042 - INFO - __main__ - Fetching raw market data for: dogecoin.
+2026-06-04 13:24:59,042 - INFO - __main__ - Last extraction file does not exists.
+2026-06-04 13:24:59,042 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-04 13:24:59,042 - INFO - __main__ - Historic data used: 20260306_1924
+2026-06-04 13:24:59,708 - INFO - client.connection - Response status code: 200
+2026-06-04 13:24:59,708 - INFO - client.connection - Request succesful.
+2026-06-04 13:24:59,732 - INFO - __main__ - Raw data saved to: data/raw/historic/dogecoin/hourly_interval/dogecoin_chart_data_20260604_1924.json
+2026-06-04 13:24:59,733 - INFO - src.utils.saver - Checkpoint file created in: data/raw/checkpoint/dogecoin/latest_data.json
+2026-06-04 13:24:59,733 - INFO - __main__ - Raw data fetching process completed.

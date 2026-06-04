@@ -1,0 +1,218 @@
+2026-05-24 16:04:56,271 - INFO - __main__ - Testing connection to CoinGecko API ...
+2026-05-24 16:04:57,009 - INFO - client.connection - Response status code: 200
+2026-05-24 16:04:57,009 - INFO - client.connection - Request succesful.
+2026-05-24 16:04:57,009 - INFO - __main__ - Starting raw data fetching process ...
+2026-05-24 16:04:57,016 - INFO - __main__ - Raw data fetching process completed.
+2026-05-24 16:47:24,144 - INFO - __main__ - Testing connection to CoinGecko API ...
+2026-05-24 16:47:25,006 - INFO - client.connection - Response status code: 200
+2026-05-24 16:47:25,007 - INFO - client.connection - Request succesful.
+2026-05-24 16:47:25,007 - INFO - __main__ - Starting raw data fetching process ...
+2026-05-24 16:47:25,016 - INFO - __main__ - Raw data saved to: data/raw/raw_bitcoin_price_from_30_days_20260524_1647.json
+2026-05-24 16:47:25,017 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 21:32:57,672 - INFO - __main__ - Testing connection to CoinGecko API ...
+2026-05-31 21:32:58,646 - INFO - client.connection - Response status code: 200
+2026-05-31 21:32:58,646 - INFO - client.connection - Request succesful.
+2026-05-31 21:32:58,646 - INFO - __main__ - Starting raw data fetching process ...
+2026-05-31 21:32:58,667 - INFO - __main__ - Raw data saved to: data/raw/bitcoin/raw_price_from_30_days_20260531_2132.json
+2026-05-31 21:32:58,669 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 22:05:21,812 - INFO - __main__ - Fetching raw market data from bitcoin.
+2026-05-31 22:05:21,814 - INFO - __main__ - Testing connection to CoinGecko API ...
+2026-05-31 22:05:22,233 - INFO - client.connection - Response status code: 200
+2026-05-31 22:05:22,233 - INFO - client.connection - Request succesful.
+2026-05-31 22:05:22,233 - INFO - __main__ - Starting raw data fetching process ...
+2026-05-31 22:05:22,243 - INFO - __main__ - Raw data saved to: data/raw/historic/bitcoin/raw_price_from_30_days_20260531_2205.json
+2026-05-31 22:05:22,248 - INFO - __main__ - Fetching raw market data from ethereum.
+2026-05-31 22:05:22,249 - INFO - __main__ - Testing connection to CoinGecko API ...
+2026-05-31 22:05:22,715 - INFO - client.connection - Response status code: 200
+2026-05-31 22:05:22,716 - INFO - client.connection - Request succesful.
+2026-05-31 22:05:22,716 - INFO - __main__ - Starting raw data fetching process ...
+2026-05-31 22:05:22,723 - INFO - __main__ - Raw data saved to: data/raw/historic/ethereum/raw_price_from_30_days_20260531_2205.json
+2026-05-31 22:05:22,724 - INFO - __main__ - Fetching raw market data from solana.
+2026-05-31 22:05:22,725 - INFO - __main__ - Testing connection to CoinGecko API ...
+2026-05-31 22:05:23,110 - INFO - client.connection - Response status code: 200
+2026-05-31 22:05:23,110 - INFO - client.connection - Request succesful.
+2026-05-31 22:05:23,110 - INFO - __main__ - Starting raw data fetching process ...
+2026-05-31 22:05:23,117 - INFO - __main__ - Raw data saved to: data/raw/historic/solana/raw_price_from_30_days_20260531_2205.json
+2026-05-31 22:05:23,118 - INFO - __main__ - Fetching raw market data from ripple.
+2026-05-31 22:05:23,150 - INFO - __main__ - Testing connection to CoinGecko API ...
+2026-05-31 22:05:23,519 - INFO - client.connection - Response status code: 200
+2026-05-31 22:05:23,519 - INFO - client.connection - Request succesful.
+2026-05-31 22:05:23,519 - INFO - __main__ - Starting raw data fetching process ...
+2026-05-31 22:05:23,535 - INFO - __main__ - Raw data saved to: data/raw/historic/ripple/raw_price_from_30_days_20260531_2205.json
+2026-05-31 22:05:23,537 - INFO - __main__ - Fetching raw market data from dogecoin.
+2026-05-31 22:05:23,537 - INFO - __main__ - Testing connection to CoinGecko API ...
+2026-05-31 22:05:24,114 - INFO - client.connection - Response status code: 200
+2026-05-31 22:05:24,114 - INFO - client.connection - Request succesful.
+2026-05-31 22:05:24,114 - INFO - __main__ - Starting raw data fetching process ...
+2026-05-31 22:05:24,120 - INFO - __main__ - Raw data saved to: data/raw/historic/dogecoin/raw_price_from_30_days_20260531_2205.json
+2026-05-31 22:05:24,121 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:14:37,314 - INFO - __main__ - Fetching raw market data for: bitcoin.
+2026-05-31 23:14:38,076 - INFO - client.connection - Response status code: 200
+2026-05-31 23:14:38,076 - INFO - client.connection - Request succesful.
+2026-05-31 23:14:38,081 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:14:38,081 - INFO - __main__ - Fetching raw market data for: ethereum.
+2026-05-31 23:14:38,880 - INFO - client.connection - Response status code: 200
+2026-05-31 23:14:38,880 - INFO - client.connection - Request succesful.
+2026-05-31 23:14:38,885 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:14:38,886 - INFO - __main__ - Fetching raw market data for: solana.
+2026-05-31 23:14:39,388 - INFO - client.connection - Response status code: 200
+2026-05-31 23:14:39,388 - INFO - client.connection - Request succesful.
+2026-05-31 23:14:39,393 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:14:39,394 - INFO - __main__ - Fetching raw market data for: ripple.
+2026-05-31 23:14:39,901 - INFO - client.connection - Response status code: 200
+2026-05-31 23:14:39,901 - INFO - client.connection - Request succesful.
+2026-05-31 23:14:39,906 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:14:39,906 - INFO - __main__ - Fetching raw market data for: dogecoin.
+2026-05-31 23:14:40,313 - INFO - client.connection - Response status code: 200
+2026-05-31 23:14:40,314 - INFO - client.connection - Request succesful.
+2026-05-31 23:14:40,319 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:15:33,353 - INFO - __main__ - Fetching raw market data for: bitcoin.
+2026-05-31 23:15:33,692 - INFO - client.connection - Response status code: 200
+2026-05-31 23:15:33,693 - INFO - client.connection - Request succesful.
+2026-05-31 23:15:33,701 - INFO - __main__ - Saving raw data to: data/raw/historic/bitcoinraw_price_from_30_days_20260531_2315.json
+2026-05-31 23:15:33,701 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:15:33,701 - INFO - __main__ - Fetching raw market data for: ethereum.
+2026-05-31 23:15:35,501 - INFO - client.connection - Response status code: 200
+2026-05-31 23:15:35,501 - INFO - client.connection - Request succesful.
+2026-05-31 23:15:35,504 - INFO - __main__ - Saving raw data to: data/raw/historic/ethereumraw_price_from_30_days_20260531_2315.json
+2026-05-31 23:15:35,504 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:15:35,504 - INFO - __main__ - Fetching raw market data for: solana.
+2026-05-31 23:15:36,169 - INFO - client.connection - Response status code: 200
+2026-05-31 23:15:36,169 - INFO - client.connection - Request succesful.
+2026-05-31 23:15:36,171 - INFO - __main__ - Saving raw data to: data/raw/historic/solanaraw_price_from_30_days_20260531_2315.json
+2026-05-31 23:15:36,172 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:15:36,172 - INFO - __main__ - Fetching raw market data for: ripple.
+2026-05-31 23:15:36,732 - INFO - client.connection - Response status code: 200
+2026-05-31 23:15:36,733 - INFO - client.connection - Request succesful.
+2026-05-31 23:15:36,735 - INFO - __main__ - Saving raw data to: data/raw/historic/rippleraw_price_from_30_days_20260531_2315.json
+2026-05-31 23:15:36,735 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:15:36,735 - INFO - __main__ - Fetching raw market data for: dogecoin.
+2026-05-31 23:15:37,221 - INFO - client.connection - Response status code: 200
+2026-05-31 23:15:37,221 - INFO - client.connection - Request succesful.
+2026-05-31 23:15:37,225 - INFO - __main__ - Saving raw data to: data/raw/historic/dogecoinraw_price_from_30_days_20260531_2315.json
+2026-05-31 23:15:37,226 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:16:46,330 - INFO - __main__ - Fetching raw market data for: bitcoin.
+2026-05-31 23:16:46,896 - INFO - client.connection - Response status code: 200
+2026-05-31 23:16:46,896 - INFO - client.connection - Request succesful.
+2026-05-31 23:16:46,909 - INFO - __main__ - Saving raw data to: data/raw/historic/bitcoinraw_price_from_30_days_20260531_2316.json
+2026-05-31 23:16:46,910 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:16:46,910 - INFO - __main__ - Fetching raw market data for: ethereum.
+2026-05-31 23:16:47,492 - INFO - client.connection - Response status code: 200
+2026-05-31 23:16:47,492 - INFO - client.connection - Request succesful.
+2026-05-31 23:16:47,499 - INFO - __main__ - Saving raw data to: data/raw/historic/ethereumraw_price_from_30_days_20260531_2316.json
+2026-05-31 23:16:47,499 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:16:47,499 - INFO - __main__ - Fetching raw market data for: solana.
+2026-05-31 23:16:48,119 - INFO - client.connection - Response status code: 200
+2026-05-31 23:16:48,119 - INFO - client.connection - Request succesful.
+2026-05-31 23:16:48,123 - INFO - __main__ - Saving raw data to: data/raw/historic/solanaraw_price_from_30_days_20260531_2316.json
+2026-05-31 23:16:48,124 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:16:48,124 - INFO - __main__ - Fetching raw market data for: ripple.
+2026-05-31 23:16:48,540 - INFO - client.connection - Response status code: 200
+2026-05-31 23:16:48,541 - INFO - client.connection - Request succesful.
+2026-05-31 23:16:48,544 - INFO - __main__ - Saving raw data to: data/raw/historic/rippleraw_price_from_30_days_20260531_2316.json
+2026-05-31 23:16:48,544 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:16:48,544 - INFO - __main__ - Fetching raw market data for: dogecoin.
+2026-05-31 23:16:49,460 - INFO - client.connection - Response status code: 200
+2026-05-31 23:16:49,461 - INFO - client.connection - Request succesful.
+2026-05-31 23:16:49,467 - INFO - __main__ - Saving raw data to: data/raw/historic/dogecoinraw_price_from_30_days_20260531_2316.json
+2026-05-31 23:16:49,468 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:18:11,137 - INFO - __main__ - Fetching raw market data for: bitcoin.
+2026-05-31 23:18:11,557 - INFO - client.connection - Response status code: 200
+2026-05-31 23:18:11,557 - INFO - client.connection - Request succesful.
+2026-05-31 23:18:11,560 - INFO - __main__ - Saving raw data to: data/raw/historic/bitcoinraw_price_from_30_days_20260531_2318.json
+2026-05-31 23:18:11,561 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:18:11,561 - INFO - __main__ - Fetching raw market data for: ethereum.
+2026-05-31 23:18:12,070 - INFO - client.connection - Response status code: 200
+2026-05-31 23:18:12,071 - INFO - client.connection - Request succesful.
+2026-05-31 23:18:12,074 - INFO - __main__ - Saving raw data to: data/raw/historic/ethereumraw_price_from_30_days_20260531_2318.json
+2026-05-31 23:18:12,075 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:18:12,075 - INFO - __main__ - Fetching raw market data for: solana.
+2026-05-31 23:18:12,458 - INFO - client.connection - Response status code: 200
+2026-05-31 23:18:12,459 - INFO - client.connection - Request succesful.
+2026-05-31 23:18:12,468 - INFO - __main__ - Saving raw data to: data/raw/historic/solanaraw_price_from_30_days_20260531_2318.json
+2026-05-31 23:18:12,468 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:18:12,469 - INFO - __main__ - Fetching raw market data for: ripple.
+2026-05-31 23:18:13,002 - INFO - client.connection - Response status code: 200
+2026-05-31 23:18:13,002 - INFO - client.connection - Request succesful.
+2026-05-31 23:18:13,005 - INFO - __main__ - Saving raw data to: data/raw/historic/rippleraw_price_from_30_days_20260531_2318.json
+2026-05-31 23:18:13,005 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:18:13,006 - INFO - __main__ - Fetching raw market data for: dogecoin.
+2026-05-31 23:18:13,641 - INFO - client.connection - Response status code: 200
+2026-05-31 23:18:13,642 - INFO - client.connection - Request succesful.
+2026-05-31 23:18:13,647 - INFO - __main__ - Saving raw data to: data/raw/historic/dogecoinraw_price_from_30_days_20260531_2318.json
+2026-05-31 23:18:13,674 - ERROR - __main__ - Error fetching data from API: unsupported operand type(s) for /: 'str' and 'str'
+2026-05-31 23:19:35,809 - INFO - __main__ - Fetching raw market data for: bitcoin.
+2026-05-31 23:19:36,674 - INFO - client.connection - Response status code: 200
+2026-05-31 23:19:36,674 - INFO - client.connection - Request succesful.
+2026-05-31 23:19:36,678 - INFO - __main__ - Saving raw data to: data/raw/historic/bitcoinraw_price_from_30_days_20260531_2319.json
+2026-05-31 23:19:36,688 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:19:36,688 - INFO - __main__ - Fetching raw market data for: ethereum.
+2026-05-31 23:19:37,105 - INFO - client.connection - Response status code: 200
+2026-05-31 23:19:37,105 - INFO - client.connection - Request succesful.
+2026-05-31 23:19:37,108 - INFO - __main__ - Saving raw data to: data/raw/historic/ethereumraw_price_from_30_days_20260531_2319.json
+2026-05-31 23:19:37,117 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:19:37,117 - INFO - __main__ - Fetching raw market data for: solana.
+2026-05-31 23:19:37,434 - INFO - client.connection - Response status code: 200
+2026-05-31 23:19:37,434 - INFO - client.connection - Request succesful.
+2026-05-31 23:19:37,437 - INFO - __main__ - Saving raw data to: data/raw/historic/solanaraw_price_from_30_days_20260531_2319.json
+2026-05-31 23:19:37,457 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:19:37,457 - INFO - __main__ - Fetching raw market data for: ripple.
+2026-05-31 23:19:37,975 - INFO - client.connection - Response status code: 200
+2026-05-31 23:19:37,975 - INFO - client.connection - Request succesful.
+2026-05-31 23:19:37,978 - INFO - __main__ - Saving raw data to: data/raw/historic/rippleraw_price_from_30_days_20260531_2319.json
+2026-05-31 23:19:37,990 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:19:37,991 - INFO - __main__ - Fetching raw market data for: dogecoin.
+2026-05-31 23:19:38,567 - INFO - client.connection - Response status code: 200
+2026-05-31 23:19:38,567 - INFO - client.connection - Request succesful.
+2026-05-31 23:19:38,570 - INFO - __main__ - Saving raw data to: data/raw/historic/dogecoinraw_price_from_30_days_20260531_2319.json
+2026-05-31 23:19:38,591 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:19:49,749 - INFO - __main__ - Fetching raw market data for: bitcoin.
+2026-05-31 23:19:50,101 - INFO - client.connection - Response status code: 200
+2026-05-31 23:19:50,102 - INFO - client.connection - Request succesful.
+2026-05-31 23:19:50,105 - INFO - __main__ - Saving raw data to: data/raw/historic/bitcoin/raw_price_from_30_days_20260531_2319.json
+2026-05-31 23:19:50,119 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:19:50,121 - INFO - __main__ - Fetching raw market data for: ethereum.
+2026-05-31 23:19:50,495 - INFO - client.connection - Response status code: 200
+2026-05-31 23:19:50,495 - INFO - client.connection - Request succesful.
+2026-05-31 23:19:50,502 - INFO - __main__ - Saving raw data to: data/raw/historic/ethereum/raw_price_from_30_days_20260531_2319.json
+2026-05-31 23:19:50,522 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:19:50,523 - INFO - __main__ - Fetching raw market data for: solana.
+2026-05-31 23:19:50,883 - INFO - client.connection - Response status code: 200
+2026-05-31 23:19:50,884 - INFO - client.connection - Request succesful.
+2026-05-31 23:19:50,887 - INFO - __main__ - Saving raw data to: data/raw/historic/solana/raw_price_from_30_days_20260531_2319.json
+2026-05-31 23:19:50,903 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:19:50,904 - INFO - __main__ - Fetching raw market data for: ripple.
+2026-05-31 23:19:51,300 - INFO - client.connection - Response status code: 200
+2026-05-31 23:19:51,300 - INFO - client.connection - Request succesful.
+2026-05-31 23:19:51,304 - INFO - __main__ - Saving raw data to: data/raw/historic/ripple/raw_price_from_30_days_20260531_2319.json
+2026-05-31 23:19:51,326 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:19:51,327 - INFO - __main__ - Fetching raw market data for: dogecoin.
+2026-05-31 23:19:51,708 - INFO - client.connection - Response status code: 200
+2026-05-31 23:19:51,709 - INFO - client.connection - Request succesful.
+2026-05-31 23:19:51,714 - INFO - __main__ - Saving raw data to: data/raw/historic/dogecoin/raw_price_from_30_days_20260531_2319.json
+2026-05-31 23:19:51,746 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:38:17,270 - INFO - __main__ - Fetching raw market data for: bitcoin.
+2026-05-31 23:38:18,044 - INFO - client.connection - Response status code: 200
+2026-05-31 23:38:18,044 - INFO - client.connection - Request succesful.
+2026-05-31 23:38:18,046 - INFO - __main__ - Saving raw data to: data/raw/historic/bitcoin/raw_price_from_30_days_20260531_2338.json
+2026-05-31 23:38:18,051 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:38:18,051 - INFO - __main__ - Fetching raw market data for: ethereum.
+2026-05-31 23:38:18,440 - INFO - client.connection - Response status code: 200
+2026-05-31 23:38:18,440 - INFO - client.connection - Request succesful.
+2026-05-31 23:38:18,442 - INFO - __main__ - Saving raw data to: data/raw/historic/ethereum/raw_price_from_30_days_20260531_2338.json
+2026-05-31 23:38:18,449 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:38:18,449 - INFO - __main__ - Fetching raw market data for: solana.
+2026-05-31 23:38:18,858 - INFO - client.connection - Response status code: 200
+2026-05-31 23:38:18,858 - INFO - client.connection - Request succesful.
+2026-05-31 23:38:18,860 - INFO - __main__ - Saving raw data to: data/raw/historic/solana/raw_price_from_30_days_20260531_2338.json
+2026-05-31 23:38:18,867 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:38:18,867 - INFO - __main__ - Fetching raw market data for: ripple.
+2026-05-31 23:38:19,693 - INFO - client.connection - Response status code: 200
+2026-05-31 23:38:19,693 - INFO - client.connection - Request succesful.
+2026-05-31 23:38:19,694 - INFO - __main__ - Saving raw data to: data/raw/historic/ripple/raw_price_from_30_days_20260531_2338.json
+2026-05-31 23:38:19,700 - INFO - __main__ - Raw data fetching process completed.
+2026-05-31 23:38:19,700 - INFO - __main__ - Fetching raw market data for: dogecoin.
+2026-05-31 23:38:20,101 - INFO - client.connection - Response status code: 200
+2026-05-31 23:38:20,101 - INFO - client.connection - Request succesful.
+2026-05-31 23:38:20,104 - INFO - __main__ - Saving raw data to: data/raw/historic/dogecoin/raw_price_from_30_days_20260531_2338.json
+2026-05-31 23:38:20,113 - INFO - __main__ - Raw data fetching process completed.

@@ -1,0 +1,41 @@
+2026-06-01 23:21:37,791 - INFO - __main__ - Directory data/raw/historic/bitcoin exists.
+2026-06-01 23:21:37,802 - INFO - __main__ - Fetching hourly data from last checkpoint.
+2026-06-01 23:21:52,460 - INFO - __main__ - Directory data/raw/historic/bitcoin does not exists.
+2026-06-01 23:21:52,460 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-01 23:21:52,901 - INFO - client.connection - Response status code: 200
+2026-06-01 23:21:52,901 - INFO - client.connection - Request succesful.
+2026-06-01 23:21:52,904 - INFO - __main__ - Saving raw data to: data/raw/historic/bitcoin/historic_price_bitcoin.json
+2026-06-01 23:59:25,676 - INFO - __main__ - Directory data/raw/historic/bitcoin exists.
+2026-06-01 23:59:25,677 - INFO - __main__ - Fetching hourly data from last checkpoint.
+2026-06-01 23:59:47,059 - INFO - __main__ - Directory data/raw/historic/bitcoin does not exists.
+2026-06-01 23:59:47,059 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-01 23:59:47,732 - WARNING - client.connection - HTTP Erros: 400
+2026-06-01 23:59:47,732 - ERROR - __main__ - Error fetching data from API: 400 Client Error: Bad Request for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1780379987&to=1772603987&interval=hourly
+2026-06-02 00:00:58,982 - INFO - __main__ - Directory data/raw/historic/bitcoin does not exists.
+2026-06-02 00:00:58,982 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-02 00:00:59,391 - WARNING - client.connection - HTTP Erros: 400
+2026-06-02 00:00:59,391 - ERROR - __main__ - Error fetching data from API: 400 Client Error: Bad Request for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1780380058&to=1772690458&interval=hourly
+2026-06-02 00:01:48,080 - INFO - __main__ - Directory data/raw/historic/bitcoin does not exists.
+2026-06-02 00:01:48,080 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-02 00:01:48,531 - WARNING - client.connection - HTTP Erros: 400
+2026-06-02 00:01:48,531 - ERROR - __main__ - Error fetching data from API: 400 Client Error: Bad Request for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1780380108&to=1772690508&interval=hourly
+2026-06-02 00:04:05,891 - INFO - __main__ - Directory data/raw/historic/bitcoin does not exists.
+2026-06-02 00:04:05,891 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-02 00:04:06,464 - WARNING - client.connection - HTTP Erros: 400
+2026-06-02 00:04:06,464 - ERROR - __main__ - Error fetching data from API: 400 Client Error: Bad Request for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1780380245&to=1772690645&interval=hourly
+2026-06-02 00:06:13,388 - INFO - __main__ - Directory data/raw/historic/bitcoin does not exists.
+2026-06-02 00:06:13,388 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-02 00:06:13,872 - WARNING - client.connection - HTTP Erros: 400
+2026-06-02 00:06:13,873 - ERROR - __main__ - Error fetching data from API: 400 Client Error: Bad Request for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1780380373&to=1772690773&interval=hourly
+2026-06-02 00:06:30,525 - INFO - __main__ - Directory data/raw/historic/bitcoin does not exists.
+2026-06-02 00:06:30,525 - INFO - __main__ - Fetching hourly data from last 90 days.
+2026-06-02 00:06:31,153 - INFO - client.connection - Response status code: 200
+2026-06-02 00:06:31,153 - INFO - client.connection - Request succesful.
+2026-06-02 00:06:31,156 - INFO - __main__ - Saving raw data to: data/raw/historic/bitcoin/historic_price_bitcoin.json
+2026-06-04 00:15:50,344 - INFO - __main__ - Checkpoint file data/raw/checkpoint/bitcoin/latest_data.json exists.
+2026-06-04 00:15:50,347 - INFO - __main__ - Fetching hourly data from last checkpoint.
+2026-06-04 00:15:50,347 - INFO - __main__ - Historic data used: 20260604_0600
+2026-06-04 00:15:50,714 - INFO - client.connection - Response status code: 200
+2026-06-04 00:15:50,714 - INFO - client.connection - Request succesful.
+2026-06-04 00:15:50,716 - INFO - __main__ - Raw data saved to: data/raw/historic/bitcoin/hourly_interval/bitcoin_chart_data_20260604_0615.json
+2026-06-04 00:15:50,717 - INFO - __main__ - Checkpoint file created in: data/raw/checkpoint/bitcoin/latest_data.json

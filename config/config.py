@@ -3,18 +3,22 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
+
 COINGECKO_API_KEY = os.getenv("COINGECKO_API_KEY")
-BASE_URL = os.getenv("BASE_URL")
-
-
-# Pending of reviewing how to automatize/efficientize the parse of the endpoint
-
-coin_id = "bitcoin"
-vs_currency = "usd"
-days = 30
-
-endpoint = f"{BASE_URL}/coins/{coin_id}/market_chart"
-params = {
-    "vs_currency": vs_currency,
-    "days": days
+BASE_URL = "https://api.coingecko.com/api/v3"
+ENDPOINTS = {
+    'server_status': '/ping', 
+    'currencies': '/simple/supported_vs_currencies',
+    'coins': '/coins/list',
+    'coins_mrkt': '/coins/markets', 
+    'historical': '/coins/{coin_id}/market_chart',
+    'range_hist': '/coins/{coin_id}/market_chart/range',
+    'OHLC': 'coins/{coin_id}/ohlc'
     }
+HEADERS = {
+    "accept": "application/json",
+    "x-cg-demo-api-key": COINGECKO_API_KEY
+    }
+
+# LIST OF COINS TO RETRIEVE DATA AND ANALYZE
+COINS_IDS = ["bitcoin", "ethereum", "solana", "ripple", "dogecoin"]

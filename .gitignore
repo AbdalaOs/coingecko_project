@@ -1,6 +1,4 @@
 .venv/
 .env
 data/
-logs/
-
-notas.txt
+anotaciones/
