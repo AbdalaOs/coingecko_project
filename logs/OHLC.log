@@ -1,0 +1,33 @@
+2026-06-08 11:25:34,993 - INFO - __main__ - Fetching raw OHLC data for: bitcoin.
+2026-06-08 11:25:35,511 - WARNING - client.connection - HTTP Erros: 404
+2026-06-08 11:25:35,511 - ERROR - __main__ - Error fetching OHLC data for bitcoin.
+Traceback (most recent call last):
+  File "/home/abdala_osnaya/DE_projects/coingecko_project/src/ingestion/OHLC.py", line 37, in fetch_OHLC_data
+    data = get_response(BASE_URL, EP, params, HEADERS)
+  File "/home/abdala_osnaya/DE_projects/coingecko_project/client/connection.py", line 28, in get_response
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/abdala_osnaya/DE_projects/coingecko_project/.venv/lib/python3.14/site-packages/requests/models.py", line 1028, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.coingecko.com/api/v3coins/bitcoin/ohlc?vs_currency=usd&days=30
+2026-06-08 11:28:04,195 - INFO - __main__ - Fetching raw OHLC data for: bitcoin.
+2026-06-08 11:28:04,810 - INFO - client.connection - Response status code: 200
+2026-06-08 11:28:04,810 - INFO - client.connection - Request succesful.
+2026-06-08 11:28:04,816 - INFO - __main__ - Raw data saved to: data/raw/OHLC/bitcoin/bitcoin_OHLC_data_20260608_1728.json
+2026-06-08 11:28:04,816 - INFO - __main__ - Fetching raw OHLC data for: ethereum.
+2026-06-08 11:28:05,123 - INFO - client.connection - Response status code: 200
+2026-06-08 11:28:05,124 - INFO - client.connection - Request succesful.
+2026-06-08 11:28:05,127 - INFO - __main__ - Raw data saved to: data/raw/OHLC/ethereum/ethereum_OHLC_data_20260608_1728.json
+2026-06-08 11:28:05,128 - INFO - __main__ - Fetching raw OHLC data for: solana.
+2026-06-08 11:28:05,424 - INFO - client.connection - Response status code: 200
+2026-06-08 11:28:05,424 - INFO - client.connection - Request succesful.
+2026-06-08 11:28:05,428 - INFO - __main__ - Raw data saved to: data/raw/OHLC/solana/solana_OHLC_data_20260608_1728.json
+2026-06-08 11:28:05,429 - INFO - __main__ - Fetching raw OHLC data for: ripple.
+2026-06-08 11:28:05,687 - INFO - client.connection - Response status code: 200
+2026-06-08 11:28:05,688 - INFO - client.connection - Request succesful.
+2026-06-08 11:28:05,691 - INFO - __main__ - Raw data saved to: data/raw/OHLC/ripple/ripple_OHLC_data_20260608_1728.json
+2026-06-08 11:28:05,691 - INFO - __main__ - Fetching raw OHLC data for: dogecoin.
+2026-06-08 11:28:05,931 - INFO - client.connection - Response status code: 200
+2026-06-08 11:28:05,931 - INFO - client.connection - Request succesful.
+2026-06-08 11:28:05,938 - INFO - __main__ - Raw data saved to: data/raw/OHLC/dogecoin/dogecoin_OHLC_data_20260608_1728.json
+2026-06-08 11:28:05,938 - INFO - __main__ - Raw OHLC data fetching process completed.

@@ -83,13 +83,27 @@ def fetch_market_data(coin: str):
         # At last create checkpoint json with timestamp of last execution
         save_checkpoint(coin, data, execution_date)
 
+
     except Exception:
         logger.exception(f"Error fetching initial historical data for {coin}.")  
-        raise     
+        raise 
+
+        
+    return filepath/filename, execution_date
 
 
 
+def run_market_data():
 
+    retrieved_data = []
+
+    for coin in COINS_IDS:
+
+        logger.info(f"Fetching raw market data for: {coin}.")
+
+        fetch_market_data(coin)
+
+    logger.info("Raw data fetching process completed.")
 
 
 
@@ -100,13 +114,7 @@ def fetch_market_data(coin: str):
 def main():
     logger_settings(log_name)
 
-    for coin in COINS_IDS:
-
-        logger.info(f"Fetching raw market data for: {coin}.")
-
-        fetch_market_data(coin)
-
-        logger.info("Raw data fetching process completed.")
+    run_market_data()
 
 
 

@@ -1,0 +1,62 @@
+2026-06-08 11:31:37,621 - INFO - src.ingestion.market_chart - Fetching raw market data for: bitcoin.
+2026-06-08 11:31:37,621 - INFO - src.ingestion.market_chart - Loading extraction file data/raw/checkpoint/bitcoin/latest_data.json.
+2026-06-08 11:31:37,621 - INFO - src.ingestion.market_chart - Fetching hourly data from last checkpoint.
+2026-06-08 11:31:37,622 - INFO - src.ingestion.market_chart - Historic data used: 20260604_1900
+2026-06-08 11:31:38,210 - INFO - client.connection - Response status code: 200
+2026-06-08 11:31:38,210 - INFO - client.connection - Request succesful.
+2026-06-08 11:31:38,212 - INFO - src.ingestion.market_chart - Raw data saved to: data/raw/historic/bitcoin/hourly_interval/bitcoin_chart_data_20260608_1731.json
+2026-06-08 11:31:38,213 - INFO - src.utils.saver - Checkpoint file created in: data/raw/checkpoint/bitcoin/latest_data.json
+2026-06-08 11:31:38,213 - INFO - src.ingestion.market_chart - Fetching raw market data for: ethereum.
+2026-06-08 11:31:38,213 - INFO - src.ingestion.market_chart - Loading extraction file data/raw/checkpoint/ethereum/latest_data.json.
+2026-06-08 11:31:38,214 - INFO - src.ingestion.market_chart - Fetching hourly data from last checkpoint.
+2026-06-08 11:31:38,215 - INFO - src.ingestion.market_chart - Historic data used: 20260604_1900
+2026-06-08 11:31:38,723 - INFO - client.connection - Response status code: 200
+2026-06-08 11:31:38,724 - INFO - client.connection - Request succesful.
+2026-06-08 11:31:38,730 - INFO - src.ingestion.market_chart - Raw data saved to: data/raw/historic/ethereum/hourly_interval/ethereum_chart_data_20260608_1731.json
+2026-06-08 11:31:38,731 - INFO - src.utils.saver - Checkpoint file created in: data/raw/checkpoint/ethereum/latest_data.json
+2026-06-08 11:31:38,731 - INFO - src.ingestion.market_chart - Fetching raw market data for: solana.
+2026-06-08 11:31:38,731 - INFO - src.ingestion.market_chart - Loading extraction file data/raw/checkpoint/solana/latest_data.json.
+2026-06-08 11:31:38,731 - INFO - src.ingestion.market_chart - Fetching hourly data from last checkpoint.
+2026-06-08 11:31:38,733 - INFO - src.ingestion.market_chart - Historic data used: 20260604_1900
+2026-06-08 11:31:39,154 - INFO - client.connection - Response status code: 200
+2026-06-08 11:31:39,155 - INFO - client.connection - Request succesful.
+2026-06-08 11:31:39,158 - INFO - src.ingestion.market_chart - Raw data saved to: data/raw/historic/solana/hourly_interval/solana_chart_data_20260608_1731.json
+2026-06-08 11:31:39,158 - INFO - src.utils.saver - Checkpoint file created in: data/raw/checkpoint/solana/latest_data.json
+2026-06-08 11:31:39,158 - INFO - src.ingestion.market_chart - Fetching raw market data for: ripple.
+2026-06-08 11:31:39,159 - INFO - src.ingestion.market_chart - Loading extraction file data/raw/checkpoint/ripple/latest_data.json.
+2026-06-08 11:31:39,159 - INFO - src.ingestion.market_chart - Fetching hourly data from last checkpoint.
+2026-06-08 11:31:39,159 - INFO - src.ingestion.market_chart - Historic data used: 20260604_1900
+2026-06-08 11:31:39,519 - INFO - client.connection - Response status code: 200
+2026-06-08 11:31:39,519 - INFO - client.connection - Request succesful.
+2026-06-08 11:31:39,524 - INFO - src.ingestion.market_chart - Raw data saved to: data/raw/historic/ripple/hourly_interval/ripple_chart_data_20260608_1731.json
+2026-06-08 11:31:39,524 - INFO - src.utils.saver - Checkpoint file created in: data/raw/checkpoint/ripple/latest_data.json
+2026-06-08 11:31:39,524 - INFO - src.ingestion.market_chart - Fetching raw market data for: dogecoin.
+2026-06-08 11:31:39,524 - INFO - src.ingestion.market_chart - Loading extraction file data/raw/checkpoint/dogecoin/latest_data.json.
+2026-06-08 11:31:39,524 - INFO - src.ingestion.market_chart - Fetching hourly data from last checkpoint.
+2026-06-08 11:31:39,526 - INFO - src.ingestion.market_chart - Historic data used: 20260604_1900
+2026-06-08 11:31:39,882 - INFO - client.connection - Response status code: 200
+2026-06-08 11:31:39,882 - INFO - client.connection - Request succesful.
+2026-06-08 11:31:39,885 - INFO - src.ingestion.market_chart - Raw data saved to: data/raw/historic/dogecoin/hourly_interval/dogecoin_chart_data_20260608_1731.json
+2026-06-08 11:31:39,886 - INFO - src.utils.saver - Checkpoint file created in: data/raw/checkpoint/dogecoin/latest_data.json
+2026-06-08 11:31:39,886 - INFO - src.ingestion.market_chart - Raw data fetching process completed.
+2026-06-08 11:31:39,886 - INFO - src.ingestion.OHLC - Fetching raw OHLC data for: bitcoin.
+2026-06-08 11:31:40,152 - INFO - client.connection - Response status code: 200
+2026-06-08 11:31:40,152 - INFO - client.connection - Request succesful.
+2026-06-08 11:31:40,154 - INFO - src.ingestion.OHLC - Raw data saved to: data/raw/OHLC/bitcoin/bitcoin_OHLC_data_20260608_1731.json
+2026-06-08 11:31:40,154 - INFO - src.ingestion.OHLC - Fetching raw OHLC data for: ethereum.
+2026-06-08 11:31:40,413 - INFO - client.connection - Response status code: 200
+2026-06-08 11:31:40,413 - INFO - client.connection - Request succesful.
+2026-06-08 11:31:40,417 - INFO - src.ingestion.OHLC - Raw data saved to: data/raw/OHLC/ethereum/ethereum_OHLC_data_20260608_1731.json
+2026-06-08 11:31:40,417 - INFO - src.ingestion.OHLC - Fetching raw OHLC data for: solana.
+2026-06-08 11:31:40,667 - INFO - client.connection - Response status code: 200
+2026-06-08 11:31:40,667 - INFO - client.connection - Request succesful.
+2026-06-08 11:31:40,670 - INFO - src.ingestion.OHLC - Raw data saved to: data/raw/OHLC/solana/solana_OHLC_data_20260608_1731.json
+2026-06-08 11:31:40,670 - INFO - src.ingestion.OHLC - Fetching raw OHLC data for: ripple.
+2026-06-08 11:31:40,934 - INFO - client.connection - Response status code: 200
+2026-06-08 11:31:40,935 - INFO - client.connection - Request succesful.
+2026-06-08 11:31:40,937 - INFO - src.ingestion.OHLC - Raw data saved to: data/raw/OHLC/ripple/ripple_OHLC_data_20260608_1731.json
+2026-06-08 11:31:40,938 - INFO - src.ingestion.OHLC - Fetching raw OHLC data for: dogecoin.
+2026-06-08 11:31:41,219 - INFO - client.connection - Response status code: 200
+2026-06-08 11:31:41,219 - INFO - client.connection - Request succesful.
+2026-06-08 11:31:41,220 - INFO - src.ingestion.OHLC - Raw data saved to: data/raw/OHLC/dogecoin/dogecoin_OHLC_data_20260608_1731.json
+2026-06-08 11:31:41,221 - INFO - src.ingestion.OHLC - Raw OHLC data fetching process completed.

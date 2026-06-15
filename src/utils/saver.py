@@ -2,6 +2,7 @@ from pathlib import Path
 import json
 from datetime import datetime, UTC
 import logging
+import pandas as pd
 
 logger = logging.getLogger(__name__)
 
@@ -15,6 +16,7 @@ def save_json(data: dict|list, filepath: Path = None, filename: str = None):
     # Save raw data from API to json file in desired path
     with (filepath / filename).open("w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
 
 
 def save_checkpoint(coin: str,
@@ -36,5 +38,13 @@ def save_checkpoint(coin: str,
 
     save_json(checkpoint, check_path, check_file)
     logger.info(f"Checkpoint file created in: {check_path}/{check_file}")
+
+
+def save_df_to_parquet(data: pd.DataFrame, filepath: Path, filename: str):
+    
+    # Validating directory existence
+    filepath.mkdir(parents=True, exist_ok=True)
+
+    data.to_parquet(filepath/filename, index=False)
 
 

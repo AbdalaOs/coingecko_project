@@ -13,7 +13,7 @@ ENDPOINTS = {
     'coins_mrkt': '/coins/markets', 
     'historical': '/coins/{coin_id}/market_chart',
     'range_hist': '/coins/{coin_id}/market_chart/range',
-    'OHLC': 'coins/{coin_id}/ohlc'
+    'OHLC': '/coins/{coin_id}/ohlc'
     }
 HEADERS = {
     "accept": "application/json",
